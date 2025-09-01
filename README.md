@@ -37,3 +37,20 @@ This project highlights your understanding of:
 ---
 
 ## 📂 Project Structure  
+
+auth-api-fastapi/
+│── alembic/ # DB migrations
+│── app/
+│ │── main.py # App entry point
+│ │── config.py # Settings & secrets
+│ │── database.py # DB connection
+│ │── models.py # SQLAlchemy models
+│ │── schemas.py # Pydantic schemas
+│ │── utils.py # Hashing utils
+│ │── auth/
+│ │ │── routes.py # Signup & Login endpoints
+│ │── crud/
+│ │ │── routes.py # CRUD resource routes
+│── requirements.txt
+│── README.md
+│── alembic.ini
