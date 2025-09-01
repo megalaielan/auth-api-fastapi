@@ -38,22 +38,21 @@ This project highlights your understanding of:
 
 ## 📂 Project Structure  
 auth-api-fastapi/
-│── alembic/              # (created after you run `alembic init`)
+│── alembic/ # (created after you run alembic init)
 │── app/
-│   │── __init__.py
-│   │── main.py
-│   │── config.py
-│   │── database.py
-│   │── models.py
-│   │── schemas.py
-│   │── utils.py
-│   │── auth/
-│   │   │── __init__.py
-│   │   │── routes.py
-│   │── crud/
-│   │   │── __init__.py
-│   │   │── routes.py
+│ │── init.py
+│ │── main.py
+│ │── config.py
+│ │── database.py
+│ │── models.py
+│ │── schemas.py
+│ │── utils.py
+│ │── auth/
+│ │ │── init.py
+│ │ │── routes.py
+│ │── crud/
+│ │ │── init.py
+│ │ │── routes.py
 │── requirements.txt
-│── alembic.ini            # created after `alembic init alembic`
+│── alembic.ini # created after alembic init alembic
 │── README.md
-
