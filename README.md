@@ -38,6 +38,7 @@ This project highlights your understanding of:
 
 ## 📂 Project Structure  
 auth-api-fastapi/
+
 │── alembic/ # (created after you run alembic init)
 
 │── app/
